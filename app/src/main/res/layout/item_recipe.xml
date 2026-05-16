@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/card_light">
+
+    <TextView
+        android:id="@+id/txtRecipeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarif adı"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_dark" />
+
+    <TextView
+        android:id="@+id/txtRecipeDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarif açıklaması"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/txtMissing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eksik malzemeler"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/orange" />
+
+</LinearLayout>

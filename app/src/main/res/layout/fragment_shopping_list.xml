@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@color/app_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alışveriş Listem"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eksik malzemelerini buradan takip edebilirsin."
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/text_secondary" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvShoppingList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/btnDeleteBought"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Alınan Malzemeleri Sil"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_primary" />
+
+    <Button
+        android:id="@+id/btnClearAll"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:text="Tüm Listeyi Temizle"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_primary" />
+    <Button
+        android:id="@+id/btnShareList"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:text="Listeyi Paylaş"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_primary" />
+
+</LinearLayout>

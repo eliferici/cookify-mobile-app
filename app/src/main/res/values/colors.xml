@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Ana renkler -->
+    <color name="primary">#B4CF7A</color>
+    <color name="primary_dark">#9FBC68</color>
+    <color name="pink">#FF5FA2</color>
+    <color name="orange">#FF8A00</color>
+    <color name="green">#7ED957</color>
+    <color name="yellow">#FFD93D</color>
+
+    <!-- Açık tema -->
+    <color name="app_background">#FFFDF7</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Yazılar -->
+    <color name="text_primary">#2A1458</color>
+    <color name="text_secondary">#7B6F93</color>
+
+    <!-- Eski isimler -->
+    <color name="background_light">#FFF7FC</color>
+    <color name="card_light">#FFFFFF</color>
+    <color name="text_dark">#2A1458</color>
+
+</resources>

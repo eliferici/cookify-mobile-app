@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="@color/app_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarif Ara"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary" />
+
+    <EditText
+        android:id="@+id/edtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Tarif adı ara"
+        android:layout_marginTop="18dp"
+        android:padding="14dp"
+        android:background="@drawable/bg_search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSearchRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

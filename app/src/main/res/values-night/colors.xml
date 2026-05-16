@@ -1,0 +1,21 @@
+<resources>
+
+    <color name="primary">#B4CF7A</color>
+    <color name="primary_dark">#2FB34B</color>
+
+    <color name="pink">#FF7AB8</color>
+    <color name="orange">#FFB347</color>
+    <color name="green">#8DFF6A</color>
+    <color name="yellow">#FFE066</color>
+
+    <color name="app_background">#121218</color>
+    <color name="card_background">#1E1E2A</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B9B4C7</color>
+
+    <color name="background_light">#121218</color>
+    <color name="card_light">#1E1E2A</color>
+    <color name="text_dark">#FFFFFF</color>
+
+</resources>

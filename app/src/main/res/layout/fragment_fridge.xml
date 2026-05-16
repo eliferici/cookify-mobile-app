@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_background"
+    android:padding="18dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Malzemelerim"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Önce kategori seç, sonra evde olan malzemeleri işaretle."
+        android:textSize="14sp"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/text_secondary" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/categoryContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/txtSelectedCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategori seçiniz"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/text_primary" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnSaveIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Kaydet"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_primary" />
+
+    <Button
+        android:id="@+id/btnUpdateIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Temizle"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_button_primary" />
+
+</LinearLayout>

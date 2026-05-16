@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDF7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarif Ekle"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lezzetli tarifini paylaş"
+            android:textSize="17sp"
+            android:textColor="#999999"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarif Adı"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_marginTop="38dp" />
+
+        <EditText
+            android:id="@+id/edtRecipeName"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="12dp"
+            android:hint="Tarifinizin adını girin..."
+            android:padding="16dp"
+            android:maxLength="60"
+            android:textColor="#111111"
+            android:textColorHint="#AAAAAA"
+            android:background="@drawable/bg_recipe_input" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarif Açıklaması"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_marginTop="28dp" />
+
+        <EditText
+            android:id="@+id/edtRecipeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="12dp"
+            android:gravity="top"
+            android:hint="Tarifinizin hikayesini, püf noktalarını veya açıklamasını yazın..."
+            android:padding="16dp"
+            android:maxLength="500"
+            android:textColor="#111111"
+            android:textColorHint="#AAAAAA"
+            android:background="@drawable/bg_recipe_input" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Malzemeler"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Her malzemeyi yeni satıra yazarak liste oluşturun."
+            android:textSize="14sp"
+            android:textColor="#777777"
+            android:layout_marginTop="4dp" />
+
+        <EditText
+            android:id="@+id/edtRecipeIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="12dp"
+            android:gravity="top"
+            android:hint="Örn:\n2 su bardağı un\n1 su bardağı süt\n1 adet yumurta"
+            android:padding="16dp"
+            android:maxLength="1000"
+            android:textColor="#111111"
+            android:textColorHint="#AAAAAA"
+            android:background="@drawable/bg_recipe_input" />
+
+        <Button
+            android:id="@+id/btnSaveRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="32dp"
+            android:text="Tarifi Kaydet"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_button_primary" />
+
+    </LinearLayout>
+</ScrollView>
